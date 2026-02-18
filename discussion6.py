@@ -93,7 +93,7 @@ class HorseRaces:
         
         horse_info = self.race_dict[horse]
 
-        for race, time in horse_info[horse].items():
+        for race, time in horse_info.items():
             if time < fastest_time:
                 fastest_time = time
                 fastest_race = race
